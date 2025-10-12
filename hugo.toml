@@ -1,0 +1,20 @@
+baseURL = 'https://the.rbac.tax/'
+languageCode = 'en-gb'
+title = 'RBAC Tax'
+author = "The Secure Engineer"
+
+# The name of this wonderful theme ;-).
+theme = 'hugo-bearblog'
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+
+# Configure markup highlighter to match "Bearblog" aesthetics, see
+# https://gohugo.io/configuration/markup/#highlight
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
