@@ -1,7 +1,7 @@
 <!-- https://coolors.co/palette/0c120c-c20114-6d7275-c7d6d5-ecebf3 --->
 <style>
   :root {
-    --width: 66%;
+    --width: 70%;
     --font-main: Verdana, sans-serif;
     --font-secondary: Verdana, sans-serif;
     --font-scale: 1em;
@@ -22,5 +22,21 @@
       --visited-color: #C20114;
       --blockquote-color: #ccc;
     }
+  }
+
+  /* Mobile optimization */
+  @media (max-width: 768px) {
+    :root {
+      --width: 100%;
+    }
+
+    body {
+      padding: 10px;
+    }
+  }
+
+  /* Hide header */
+  header {
+    display: none;
   }
 </style>
