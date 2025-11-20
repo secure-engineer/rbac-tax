@@ -1,7 +1,7 @@
 ---
 base_pricing: 20€/mo
 name: n8n
-percent_increase: 250%
+percent_increase: 150%
 pricing_source: https://n8n.io/pricing/
 rbac_pricing: 50€/mo
 updated_at: 2025-11-19
