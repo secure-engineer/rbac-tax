@@ -13,9 +13,10 @@ weight = 1
 Role-based access control (RBAC) is a mechanism for restricting data access and actions based on the roles of individual users within an organization.
 
 For organizations with more than a handful of employees, granular access control on the services they use is critical for security and compliance.
-It enables organisations to apply the principle of least privilege in the real world, reducing the risk of accidental or malicious data breaches.
+It enables organizations to apply the principle of least privilege in the real world, reducing the risk of accidental or malicious data breaches.
 
 Without proper RBAC, organizations are forced to either:
+
 - Give all users admin access (creating significant security risks), or
 - Maintain a flat permission structure where everyone has the same access level, or
 - Purchase expensive "Enterprise" tiers to access basic security features
@@ -26,6 +27,7 @@ SaaS vendors appear not to have received this message, however.
 Fine-grained access control is often only available as part of "Enterprise" or "Premium" pricing tiers, which assume either a huge number of users (minimum seat count) or are force-bundled with other features which may have no value to the company using the software.
 
 If companies claim to "take your security seriously", then RBAC should be available as a feature that is either:
+
 - Part of the core product, or
 - An optional paid extra for a reasonable delta, or
 - Attached to a price tier, but with a reasonably small gap between basic and RBAC-enabled tiers
@@ -49,7 +51,7 @@ Many vendors charge 2x, 3x, or 4x the base product pricing for access to proper 
 # FAQs
 
 {{< details "How is base pricing determined?" >}}
-We disregard free tier pricing, as we can assume these aren't intended for long term business customer use. We also disregard "single person" pricing, under the assumption that we're looking on behalf of a team of 5, 10, or more people.
+We disregard free tier pricing, as we can assume these aren't intended for long-term business customer use. We also disregard "single person" pricing, under the assumption that we're looking on behalf of a team of 5, 10, or more people.
 {{< /details >}}
 
 <br>
