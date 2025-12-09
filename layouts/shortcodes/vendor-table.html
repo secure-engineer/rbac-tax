@@ -47,6 +47,49 @@
   .sortable-table th:last-child::after {
     content: '';
   }
+  .percent-cell[data-notes]:not([data-notes=""]) {
+    position: relative;
+    cursor: help;
+  }
+  .percent-cell[data-notes]:not([data-notes=""])::after {
+    content: ' *';
+    color: #83A4A2;
+  }
+  .percent-cell[data-notes]:not([data-notes=""]):hover::after {
+    content: attr(data-notes);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 0.9em;
+    z-index: 1000;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .percent-cell[data-notes]:not([data-notes=""]):hover::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #333;
+    margin-bottom: -5px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .percent-cell[data-notes]:not([data-notes=""]):hover::after {
+      background-color: #ecebf3;
+      color: #0c120c;
+    }
+    .percent-cell[data-notes]:not([data-notes=""]):hover::before {
+      border-top-color: #ecebf3;
+    }
+  }
 </style>
 
 <table class="sortable-table" id="vendor-table">
@@ -72,7 +115,7 @@
       </td>
       <td data-value="{{ .base_pricing }}">{{ .base_pricing }}</td>
       <td data-value="{{ .rbac_pricing }}">{{ .rbac_pricing }}</td>
-      <td data-value="{{ .percent_increase }}">{{ .percent_increase }}</td>
+      <td class="percent-cell" data-value="{{ .percent_increase }}" data-notes="{{ .notes }}">{{ .percent_increase }}</td>
       <td data-value="{{ .updated_at }}">{{ .updated_at }}</td>
       <td>
         {{- if .pricing_source -}}

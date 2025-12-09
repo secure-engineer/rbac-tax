@@ -1,8 +1,8 @@
 ---
-base_pricing: 100$/mo
+base_pricing: 100 $/mo
 name: Metabase
 percent_increase: 475%
 pricing_source: https://www.metabase.com/pricing/
-rbac_pricing: 575$/mo
+rbac_pricing: 575 $/mo
 updated_at: 2025-11-20
 vendor_url: https://www.metabase.com/

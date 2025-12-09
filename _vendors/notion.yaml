@@ -1,8 +1,8 @@
 ---
-base_pricing: 10$/u/mo
+base_pricing: 10 $/u/mo
 name: Notion
 percent_increase: 100%
 pricing_source: https://www.notion.com/pricing
-rbac_pricing: 20$/u/mo
+rbac_pricing: 20 $/u/mo
 updated_at: 2025-11-21
 vendor_url: https://www.notion.com/
