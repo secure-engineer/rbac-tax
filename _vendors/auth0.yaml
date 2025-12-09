@@ -1,0 +1,9 @@
+---
+base_pricing: 35 $/mo
+name: Auth0
+notes: While the Essentials tier has Admin & Viewer roles, the Professional tier adds an Editor role.
+percent_increase: 585%
+pricing_source: https://auth0.com/pricing/
+rbac_pricing: 240 $/mo
+updated_at: 2025-11-28
+vendor_url: https://auth0.com/

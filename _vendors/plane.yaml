@@ -1,0 +1,8 @@
+---
+base_pricing: 6 $/u/mo
+name: Plane.so
+percent_increase: 117%
+pricing_source: https://plane.so/pricing/
+rbac_pricing: 13 $/u/mo
+updated_at: 2025-12-09
+vendor_url: https://plane.so/

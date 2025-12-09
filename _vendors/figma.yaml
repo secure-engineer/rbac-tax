@@ -1,0 +1,9 @@
+---
+base_pricing: 55 €/u/mo
+name: Figma
+notes: Only considering the full seat pricing, and comparing the "Admin" featureset.
+percent_increase: 64%
+pricing_source: https://www.figma.com/pricing/
+rbac_pricing: 90 €/u/mo
+updated_at: 2025-12-09
+vendor_url: https://www.figma.com/
